@@ -32,4 +32,5 @@ def first_second_and_third_students
   count = 0 
   while count < 3
     return STUDENT_NAMES[count]
+  end
 end
