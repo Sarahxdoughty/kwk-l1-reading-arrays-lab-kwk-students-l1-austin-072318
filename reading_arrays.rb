@@ -8,16 +8,16 @@ STUDENT_NAMES = [
 ]
 
 def first_student_by_index
-  puts STUDENT_NAMES[0]
+  return STUDENT_NAMES[0]
 end
 
 def fourth_student_by_index
-  puts STUDENT_NAMES[3]
+  return STUDENT_NAMES[3]
 end
 
 def last_student_by_index
   sizeval = STUDENT_NAMES.size-1
-  puts STUDENT_NAMES[sizeval]
+  return STUDENT_NAMES[sizeval]
 end
 
 def first_student_by_method
