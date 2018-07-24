@@ -30,7 +30,9 @@ end
 
 def first_second_and_third_students
   count = 0 
+  studentNamesReturn = []
   while count < 3
-    return STUDENT_NAMES[count]
+    studentNamesReturn << STUDENT_NAMES[count]
   end
+  return studentNamesReturn
 end
